@@ -6,10 +6,10 @@
 	<groupId>br.com.jonatas.menezes.cartola</groupId>
 	<artifactId>liga-duelo-titas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>liga-duelo-titas</name>
-	<description>Demo project for Spring Boot</description>
+	<description>League management Duelo de Titãs </description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -68,8 +68,29 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <outputDirectory>target</outputDirectory>
+              		  <warName>ROOT</warName>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
-
+	
+	<repositories>
+		<repository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</pluginRepository>
+	</pluginRepositories>	
 
 </project>
