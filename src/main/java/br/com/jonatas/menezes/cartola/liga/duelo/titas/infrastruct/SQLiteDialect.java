@@ -1,4 +1,4 @@
-package br.com.jonatas.menezes.cartola.ligaduelotitas.infraestrutura;
+package br.com.jonatas.menezes.cartola.liga.duelo.titas.infrastruct;
 
 import java.sql.Types;
 

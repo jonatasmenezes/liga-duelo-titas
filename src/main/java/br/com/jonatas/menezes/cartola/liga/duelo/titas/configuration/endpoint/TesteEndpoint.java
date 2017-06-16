@@ -1,4 +1,4 @@
-package br.com.jonatas.menezes.cartola.ligaduelotitas.definicoes.endpoint;
+package br.com.jonatas.menezes.cartola.liga.duelo.titas.configuration.endpoint;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.jonatas.menezes.cartola.ligaduelotitas.definicoes.service.TesteService;
+import br.com.jonatas.menezes.cartola.liga.duelo.titas.configuration.service.TesteService;
 
 @RestController
 @RequestMapping(value = "/api/liga")

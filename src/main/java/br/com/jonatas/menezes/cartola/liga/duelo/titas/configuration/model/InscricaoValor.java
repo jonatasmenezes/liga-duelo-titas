@@ -1,4 +1,4 @@
-package br.com.jonatas.menezes.cartola.ligaduelotitas.definicoes.modelo;
+package br.com.jonatas.menezes.cartola.liga.duelo.titas.configuration.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

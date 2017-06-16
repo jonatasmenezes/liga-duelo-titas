@@ -1,4 +1,4 @@
-package br.com.jonatas.menezes.cartola.ligaduelotitas;
+package br.com.jonatas.menezes.cartola.liga.duelo.titas;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
