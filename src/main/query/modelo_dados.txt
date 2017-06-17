@@ -1,0 +1,36 @@
+Configurações:
+
+- Vencimento Pagamento (16/06/2017)
+- Valor da liga (R$100,00)
+- Percentual do Premio (80%)
+- Percentual da Festa (20%)
+- Percentual premio intermediaio (50% de 80%)
+- Percentual premio geral (50% de 80%)
+- Ano
+
+Premio Intermediario e Geral:
+100 / TOTAL TIPO I(12) = 8,3%
+Coluna TIPO(I ou G) e Coluna Descricao
+- Mensal (8,3%)
+- Mitão (8,3%)
+- Turno (12,45)
+- 1 colocado (70%)
+- 2 colocado (20%)
+- 3 colocado (10%)
+* TIPO COLUNA PERCENTUAL: REAL
+
+Histórico
+Tabela: historic_logging
+Colunas: id, tipo, rodada, turno, mes, ano, team_id, team_name, team_manager
+
+Tipos
+
+Mitão
+Juvenil
+Campeão Mensal
+Campeão Turno
+Campeão Campeonato
+Vice Campeão Campeonato
+Terceiro Colocado Campeonato
+Pontuação da Liga na Rodada
+Pontuação do Time na Rodada
