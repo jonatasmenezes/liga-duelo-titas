@@ -83,7 +83,7 @@
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <outputDirectory>target</outputDirectory>
-              		  <warName>${project.artifactId}-${project.version}</warName>
+              		  <warName>ROOT</warName>
                 </configuration>
             </plugin>
 		</plugins>
